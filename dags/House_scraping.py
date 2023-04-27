@@ -97,8 +97,8 @@ def load_s3_data():
     today = date.today()
     Sdate = today.strftime("%m-%d-%y")
     session = boto3.Session(
-    aws_access_key_id="AKIAWL53452U42WFKBMX",
-    aws_secret_access_key="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",)
+    aws_access_key_id="",
+    aws_secret_access_key="",)
     s3 = session.resource('s3')
     
     s3.meta.client.upload_file(dag_path + '/raw_data/'  + Sdate +'-Appartements.csv','appartementscraping', Sdate +'-Appartements.csv')
@@ -107,8 +107,8 @@ def load_s3_data():
 
 def download_s3_data():
     
-        s3 = boto3.client('s3',aws_access_key_id="AKIAWL53452U42WFKBMX",
-        aws_secret_access_key="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")
+        s3 = boto3.client('s3',aws_access_key_id="",
+        aws_secret_access_key="")
 
         get_last_modified = lambda obj: int(obj['LastModified'].strftime('%S'))
 
@@ -116,8 +116,8 @@ def download_s3_data():
         last_added = [obj['Key'] for obj in sorted(objs, key=get_last_modified)][-1]
 
         session = boto3.Session(
-        aws_access_key_id="AKIAWL53452U42WFKBMX",
-        aws_secret_access_key="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",)
+        aws_access_key_id="",
+        aws_secret_access_key="",)
         s3 = session.resource('s3')
     
         s3.Bucket('appartementscraping').download_file(last_added , dag_path + '/processed_data/' + last_added)
@@ -135,8 +135,8 @@ def load_data():
     data = cursor.fetchone()
     print("Connection established to: ", data)
 
-    s3 = boto3.client('s3',aws_access_key_id="AKIAWL53452U42WFKBMX",
-    aws_secret_access_key="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")
+    s3 = boto3.client('s3',aws_access_key_id="",
+    aws_secret_access_key="")
 
     get_last_modified = lambda obj: int(obj['LastModified'].strftime('%S'))
         
