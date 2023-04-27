@@ -16,9 +16,6 @@ The pipeline collects every hour data from the Moroccan Real Estate Website http
 
 ![image](https://user-images.githubusercontent.com/5299312/169566679-3d46d244-b139-4414-a406-c5c18d981ac3.png)
 
-## **Data Dashboard**
-
-![image](https://github.com/Moadlaghyati/Moroccan_Real_Estate_Pipline/blob/main/image.png?raw=true)
 
 ## **Learning Resources**
 
