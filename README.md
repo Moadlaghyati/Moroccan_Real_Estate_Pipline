@@ -1,7 +1,8 @@
 # Moroccan_Real_Estate_Pipline
 Moroccan Housing Pipline using Beautifulsoup4 , Airflow , s3 and PostgreSQL
 
-<img width="4896" alt="Surfline App Architecture" src="[https://user-images.githubusercontent.com/5299312/169568492-4ada773b-a77b-485e-9c2e-b4538017ef59.png](https://github.com/Moadlaghyati/Moroccan_Real_Estate_Pipline/blob/main/pipeline%20(2).jpg?raw=true)">
+<img width="4896" alt="Surfline App Architecture" src="https://user-images.githubusercontent.com/125677177/234985104-8ed737ad-b087-48e6-9985-b200984cc128.jpg">
+
 
 
 ## **Overview**
