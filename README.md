@@ -1,7 +1,7 @@
 # Moroccan_Real_Estate_Pipline
 Moroccan Housing Pipline using Beautifulsoup4 , Airflow , s3 and PostgreSQL
 
-<img width="4896" alt="Surfline App Architecture" src="https://user-images.githubusercontent.com/5299312/169568492-4ada773b-a77b-485e-9c2e-b4538017ef59.png">
+<img width="4896" alt="Surfline App Architecture" src="[https://user-images.githubusercontent.com/5299312/169568492-4ada773b-a77b-485e-9c2e-b4538017ef59.png](https://github.com/Moadlaghyati/Moroccan_Real_Estate_Pipline/blob/main/pipeline%20(2).jpg?raw=true)">
 
 
 ## **Overview**
@@ -14,7 +14,8 @@ The pipeline collects every hour data from the Moroccan Real Estate Website http
 
 ## **Data Warehouse - Postgres**
 
-![image](https://user-images.githubusercontent.com/5299312/169566679-3d46d244-b139-4414-a406-c5c18d981ac3.png)
+![image](https://user-images.githubusercontent.com/125677177/234984773-8e8d0cc0-6dcc-4c47-bae7-3a46aa9360ce.JPG)
+
 
 
 ## **Learning Resources**
