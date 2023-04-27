@@ -10,7 +10,7 @@ The pipeline collects every hour data from the Moroccan Real Estate Website http
 
 ## **ETL** 
 
-![image](https://user-images.githubusercontent.com/5299312/169564659-76d6cde9-fc59-4d18-9fc4-d8d6f8fa1c0b.png)
+![image](https://user-images.githubusercontent.com/125677177/234984964-cc752cd8-09a1-4959-9e9a-76a4723814b9.JPG)
 
 ## **Data Warehouse - Postgres**
 
